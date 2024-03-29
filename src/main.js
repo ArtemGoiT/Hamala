@@ -12,7 +12,7 @@ const updateClock = () => {
   const minutes = Math.floor((timeRemaining / 60) % 60);
 
   timerBlock.innerHTML = `
-    <div class="timer-count">${days}<span>дни</span></div>
+    <div class="timer-count">${days}<span>дней</span></div>
     <div class="timer-sep">:</div>
     <div class="timer-count">${('' + hours).padStart(
       2,
