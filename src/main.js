@@ -1,6 +1,5 @@
 const timerBlock = document.querySelector('.timer-time');
-const deadline = '29 Mar 2024';
-
+const deadline = '14 April 2024';
 let interval;
 
 const updateClock = () => {
