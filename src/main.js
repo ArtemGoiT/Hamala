@@ -17,12 +17,12 @@ const updateClock = () => {
     <div class="timer-count">${('' + hours).padStart(
       2,
       '0'
-    )}<span>часы</span></div>
+    )}<span>часов</span></div>
     <div class="timer-sep">:</div>
     <div class="timer-count">${('' + minutes).padStart(
       2,
       '0'
-    )}<span>минуты</span></div>`;
+    )}<span>минут</span></div>`;
 
   if (timeRemaining <= 0) {
     clearInterval(interval);
