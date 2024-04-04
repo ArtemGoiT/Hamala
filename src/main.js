@@ -1268,9 +1268,9 @@ function spin(len = 12) {
     (segments - Math.round((winAngle % 360) / (360 / segments))) % segments;
   const winner = document.querySelector(`[data-value="${index}"] > text`);
   const winName = winner.textContent.trim();
-  let slicess = document.querySelectorAll(`.slice`);
-  for (let i = 0; i < slicess.length; i++) {
-    slicess[i].classList.remove('winner');
+  let slices = document.querySelectorAll(`.slice`);
+  for (let i = 0; i < slices.length; i++) {
+    slices[i].classList.remove('winner');
   }
   // start the animation
   document.querySelector('.ballAnim').beginElement();
